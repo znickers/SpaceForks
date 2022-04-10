@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black_overlay"
+    tools:context="fragments.PauseMenuFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_outline"
+        android:gravity="center"
+        android:text="Pause"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resume_button_pause"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round1"
+        android:textColor="@color/sf_grey"
+        android:textStyle="bold"
+        android:text="Resume" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restart_button_pause"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round1"
+        android:textColor="@color/sf_grey"
+        android:textStyle="bold"
+        android:text="Restart" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quit_button_pause"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round1"
+        android:textColor="@color/sf_grey"
+        android:textStyle="bold"
+        android:text="Quit" />
+
+</LinearLayout>
