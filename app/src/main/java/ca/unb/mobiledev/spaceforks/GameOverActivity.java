@@ -106,6 +106,7 @@ public class GameOverActivity extends AppCompatActivity {
                 addItem(newName, Integer.toString(gamescore));
 
                 // Restore gameover layout
+                getHighScore(tvHighScore);
                 removeFragment(getSupportFragmentManager().findFragmentByTag(FRAGMENT_TAG));
                 tvGameOver.setVisibility(View.VISIBLE);
                 highscoreRow.setVisibility(View.VISIBLE);
